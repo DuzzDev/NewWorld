@@ -32,7 +32,7 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Clique Here
+              Click Here
             </Button>
           </div>
           <img src={img2} alt="" className="planet-img" />
@@ -53,7 +53,7 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Clique Here
+              Click Here
             </Button>
           </div>
         </div>
@@ -72,7 +72,7 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Clique Here
+              Click Here
             </Button>
           </div>
           <img src={img4} alt="" className="planet-img" />
