@@ -6,11 +6,11 @@ export default function Hero(){
   return(
     <section className="hero">
       <h1>
-      Lorem ipsum dolor sit amet <span>adipisicing </span>consectetur, elit. Repellendus autem ab deserunt,
-      cupidi
+      Como será viver em um  <span>Exoplaneta </span>Habitável, saiba tudo sobre a vida em 
+      Androxus
       </h1>
       <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, magni.
+      O planeta conhecido mais parecido com a terra
       </p>
       <img src={img1} alt="" className="mainImg" />
     </section>

@@ -34,12 +34,18 @@
     font-size: 20px;
     font-family: 'Poppins';
     color: white;
+    span{
+      color: $color-hover;
+    }
   }
 }
 .card-title{
   font-family: 'Poppins';
   color: white;
   font-size: 20px;
+  span{
+    color: $color-hover;
+  }
 }
 .btn-card{
   padding: 10px;
