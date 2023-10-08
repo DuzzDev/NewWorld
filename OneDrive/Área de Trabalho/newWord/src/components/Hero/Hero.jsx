@@ -6,11 +6,10 @@ export default function Hero(){
   return(
     <section className="hero">
       <h1>
-      Como será viver em um  <span>Exoplaneta </span>Habitável, saiba tudo sobre a vida em 
-      Androxus
+      What it will be like to live on a Habitable <span>Exoplanet</span>, find out everything about life on Androxus
       </h1>
       <p>
-      O planeta conhecido mais parecido com a terra
+      The new home of humanity
       </p>
       <img src={img1} alt="" className="mainImg" />
     </section>
