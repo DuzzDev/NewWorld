@@ -3,7 +3,7 @@ import img2 from '../../img/img2.png';
 import img3 from '../../img/img3.png';
 import img4 from '../../img/img4.png';
 import Button from '../Button/Button';
-import './Card.scss';
+import './Card.scss'; 
 
 
 function Card(){
@@ -32,7 +32,7 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Click Here
+              Clique Here
             </Button>
           </div>
           <img src={img2} alt="" className="planet-img" />
@@ -53,7 +53,7 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Click Here
+              Clique Here
             </Button>
           </div>
         </div>
@@ -66,13 +66,15 @@ function Card(){
       <section className="card-img">
         <div className="card-img-min">
           <div className="card-info">
+
             <p className="card-title">Existe <span>vida</span> em Androxus? E como são seus <span>biomas</span> ?</p>
+
             <Button 
               id={'text3'} 
               className={'btn-card'}
               onClick={showText}
             >
-              Click Here
+              Clique Here
             </Button>
           </div>
           <img src={img4} alt="" className="planet-img" />
