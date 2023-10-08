@@ -1,0 +1,76 @@
+@import '../../sass/variables.scss';
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 60px;
+    height: 100%;
+    gap: 40px;
+    div{
+      display: flex;
+      width: 100%;
+      align-items:center ;
+      justify-content: center;
+      height: 100%;
+      position: relative;
+     
+  
+     
+    }
+   
+  }
+  .back-img{
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+   
+  }
+  .img-sociedade{
+    border-radius: 10px;
+    max-height: 600px;
+    min-width: 100%;
+    object-fit: cover;
+    transition: all 0.4s;
+   
+  }
+  .text-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    z-index: 4;
+    
+  }
+  .text{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  .color{
+    color: $color-hover;
+  }
+  @media(max-width:650px){
+    .text-img{
+      font-size: 20px;
+    }
+  
+  }
+  @media(max-width:430px){
+    .text-img{
+      font-size: 15px;
+    }
+    .conteiner{
+      padding: 20px;
+    }
+   
+  }
