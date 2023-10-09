@@ -6,7 +6,7 @@ export default function Hero(){
   return(
     <section className="hero">
       <h1>
-        What it will be like to live on a Habitable <span>Exoplanet</span>, find out everything about life on Androxus
+        What it will be like to live on a Habitable <span>Exoplanet</span>, find out everything about life on Anydrus
       </h1>
       <p>
         The new home of humanity

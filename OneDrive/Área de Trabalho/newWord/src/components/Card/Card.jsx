@@ -39,8 +39,8 @@ function Card(){
         </div>
         <div className={`content ${text1?null:'hide'}`}>
           <p>
-           The <span>temperature</span> of Androxus resembles a tropical country on earth. During Tenebris (Nights) the temperature can reach 289 kelvin 
-           and during Luxis (Day) the temperature can exceed 300 kelvin. The <span>climate</span> of Androxus is relatively dry. Rain happens occasionally throughout the
+           The <span>temperature</span> of Anydrus resembles a tropical country on earth. During Tenebris (Nights) the temperature can reach 289 kelvin 
+           and during Luxis (Day) the temperature can exceed 300 kelvin. The <span>climate</span> of Anydrus is relatively dry. Rain happens occasionally throughout the
            year and most of the time it occurs in Tenebris.
           </p>
         </div>
@@ -49,7 +49,7 @@ function Card(){
         <div className="card-img-min reverse">
           <img src={img3} alt="" className="planet-img" />
           <div className="card-info">
-            <p className="card-title">What are <span>Luxis</span> and <span>Tenebris</span> and why does time pass slower in Androxus?</p>
+            <p className="card-title">What are <span>Luxis</span> and <span>Tenebris</span> and why does time pass slower in Anydrus?</p>
             <Button 
               id={'text2'} 
               className={'btn-card'}
@@ -61,7 +61,7 @@ function Card(){
         </div>
         <div className={`content ${text2?null:'hide'}`}>
           <p>
-            In Androxus the days are known as <span>Luxis</span> and the nights are known as <span>Tenebris</span>. Androxus's rotational movement is slower compared
+            In Anydrus the days are known as <span>Luxis</span> and the nights are known as <span>Tenebris</span>. Anydrus's rotational movement is slower compared
             to Earth's, its rotation lasts an average of 5 days, giving the impression that time passes more slowly. 
           </p>
         </div>
@@ -70,7 +70,7 @@ function Card(){
         <div className="card-img-min">
           <div className="card-info">
 
-            <p className="card-title">Is there <span>life</span> on Androxus? And what are their biomes <span>biomes</span> like ?</p>
+            <p className="card-title">Is there <span>life</span> on Anydrus? And what are their biomes <span>biomes</span> like ?</p>
 
             <Button 
               id={'text3'} 
@@ -84,8 +84,8 @@ function Card(){
         </div>
         <div className={`content ${text3?null:'hide'}`}>
           <p>
-             We already know that Androxus has vast oceans, enabling the development of <span>life</span>, but does <span>extra-terrestrial</span> life really exist on this new planet?
-             Yes! However, there is no intelligent life on Androxus ;-;
+             We already know that Anydrus has vast oceans, enabling the development of <span>life</span>, but does <span>extra-terrestrial</span> life really exist on this new planet?
+             Yes! However, there is no intelligent life on Anydrus ;-;
              Life developed on the planet is basically made up of microorganisms <span>microorganisms</span> and low vegetation.
           </p>
           <p>

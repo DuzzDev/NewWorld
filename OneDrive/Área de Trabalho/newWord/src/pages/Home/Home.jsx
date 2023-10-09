@@ -16,7 +16,7 @@ function Home(){
       <Card/>
       <Section/>
       <section className="cta-card">
-        <p className="cta-text">See our 3D model of the Androxus palaneta by <span>clicking</span> the button below</p>
+        <p className="cta-text">See our 3D model of the Anydrus palaneta by <span>clicking</span> the button below</p>
         <Link to={'/3DPlanet'}>
           <Button className="cta-btn" onClick={hendlerColor} id={'btn-cta'}>
             Click Here

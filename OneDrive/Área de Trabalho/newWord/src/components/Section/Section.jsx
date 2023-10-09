@@ -22,7 +22,7 @@ function Section (){
         <p className="text">
             Since the Biological Wars, Planet Earth has never been the same, there has only been sadness and ruins. Until the day that the planet Anydrus was discovered by the HWO (Habitable Worlds Observatory), fueling our dreams about what would be the highest similarity index to Earth ever discovered, the index reached 0.99.
             After a few years of research, the Irium spacecraft was created, which could travel at the speed of light. Thus began the New World experiment, the first expedition to an exoplanet.
-            The journey to Androxus was a journey that changed the course of human history. We left Earth with a group of hand-picked people,
+            The journey to Anydrus was a journey that changed the course of human history. We left Earth with a group of hand-picked people,
             trained to withstand extreme situations and ready to face the unknown. During the years on the Irium ship, anxiety and excitement
             they were palpable, due to the enormous distance of 10 light years from Anydrus to Earth, but there was also a deep sense of duty. we will be
             the first to arrive in this new world and, with it,
@@ -49,7 +49,7 @@ function Section (){
           <p className="text-img">D-day</p>
         </div>
         <p className="text">
-            Finally, the time has come for our arrival at Anydrus. A tense and expectant atmosphere filled Irium, it was the moment we had been waiting for for so long. As we exited the ship and took our first steps onto the surface, I saw a world that was at once strange and familiar. Androxus's first impressions were overwhelming. The sky,
+            Finally, the time has come for our arrival at Anydrus. A tense and expectant atmosphere filled Irium, it was the moment we had been waiting for for so long. As we exited the ship and took our first steps onto the surface, I saw a world that was at once strange and familiar. Anydrus's first impressions were overwhelming. The sky,
             tinged with reddish hues, it reflected the soft light of its star, Chronos, a red dwarf star that rose majestically on the horizon. Tense gravity forced us to adjust our pace, and the rotational movement that lasted 5 days required a redefinition of our concepts of day and night,
             which were now called luxis and tenebris respectively.
         </p>
@@ -92,15 +92,15 @@ function Section (){
         </div>
         <p className="text">
             Looking back, I see that we are true explorers. Our lives are shaped by the need to constantly adapt and the understanding that we are the guardians of this foreign planet.
-            As we continue to expand our settlements and explore the secrets of Androxus,
+            As we continue to expand our settlements and explore the secrets of Anydrus,
             I am hopeful that we can build a society that honors the Earth we leave behind and celebrates
             the courage and determination that brought us here.
 
-            The journey to Androxus taught us that the quest for the unknown and the willingness to face seemingly insurmountable challenges are at the core of human nature.
+            The journey to Anydrus taught us that the quest for the unknown and the willingness to face seemingly insurmountable challenges are at the core of human nature.
             We are the children of the Earth,
-            But now we are also the children of Androxus, and it is our responsibility to shape the destiny of this new world and ensure that it flourishes as much as the Earth we left behind.
+            But now we are also the children of Anydrus, and it is our responsibility to shape the destiny of this new world and ensure that it flourishes as much as the Earth we left behind.
  
-            "Magno, you are the hope of a bright future on Androxus, may this journey continue to be a celebration of human courage and
+            "Magno, you are the hope of a bright future on Anydrus, may this journey continue to be a celebration of human courage and
             desire to explore the unknown."
         </p>
       </section>
