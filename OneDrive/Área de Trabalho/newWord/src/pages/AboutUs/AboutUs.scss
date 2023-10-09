@@ -1,0 +1,78 @@
+@import '../../sass/variables.scss';
+
+.conteiner-about{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 60px;
+}
+.card-img-about{
+  height: 600px;
+  width: 100%;
+  background-color: aqua;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s;
+  &:hover{
+    scale: 1.02;
+  }
+}
+.about-img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.text-about{
+  font-size: 20px;
+  font-family: 'Poppins';
+  color: white;
+  text-align: center;
+  span{
+    color: $color-hover;
+  }
+}
+.about-profile-card{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 50px;
+}
+.card-profile{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+
+}
+.profile{
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  &:hover{
+    scale: 1.2;
+  }
+}
+.img-profile-text{
+  color: white;
+  width: 30%;
+  font-size: 20px;
+  font-family: 'Poppins';
+  span{
+    color: $color-hover;
+  }
+}
+.reverse{
+  flex-wrap: wrap-reverse
+}
+@media(max-width:670px){
+  .card-profile{
+    justify-content: center;
+  }
+  .img-profile-text{
+    text-align: center;
+    width: 100%;
+  }
+}

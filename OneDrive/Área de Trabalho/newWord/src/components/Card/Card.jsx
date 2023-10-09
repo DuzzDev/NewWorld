@@ -32,15 +32,17 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Clique Here
+              Click Here
             </Button>
           </div>
           <img src={img2} alt="" className="planet-img" />
         </div>
         <div className={`content ${text1?null:'hide'}`}>
-          <p>The <span>temperature</span> of Androxus resembles a tropical country on earth. During Tenebris (Nights) the temperature can reach 289 kelvin 
+          <p>
+           The <span>temperature</span> of Androxus resembles a tropical country on earth. During Tenebris (Nights) the temperature can reach 289 kelvin 
            and during Luxis (Day) the temperature can exceed 300 kelvin. The <span>climate</span> of Androxus is relatively dry. Rain happens occasionally throughout the
-           year and most of the time it occurs in Tenebris.</p>
+           year and most of the time it occurs in Tenebris.
+          </p>
         </div>
       </section>
       <section className="card-img">
@@ -53,13 +55,14 @@ function Card(){
               className={'btn-card'}
               onClick={showText}
             >
-              Clique Here
+              Click Here
             </Button>
           </div>
         </div>
         <div className={`content ${text2?null:'hide'}`}>
-          <p>In Androxus the days are known as <span>Luxis</span> and the nights are known as <span>Tenebris</span>. Androxus's rotational movement is slower compared
-             to Earth's, its rotation lasts an average of 5 days, giving the impression that time passes more slowly. 
+          <p>
+            In Androxus the days are known as <span>Luxis</span> and the nights are known as <span>Tenebris</span>. Androxus's rotational movement is slower compared
+            to Earth's, its rotation lasts an average of 5 days, giving the impression that time passes more slowly. 
           </p>
         </div>
       </section>
@@ -80,14 +83,15 @@ function Card(){
           <img src={img4} alt="" className="planet-img" />
         </div>
         <div className={`content ${text3?null:'hide'}`}>
-          <p>We already know that Androxus has vast oceans, enabling the development of <span>life</span>, but does <span>extra-terrestrial</span> life really exist on this new planet?
+          <p>
+             We already know that Androxus has vast oceans, enabling the development of <span>life</span>, but does <span>extra-terrestrial</span> life really exist on this new planet?
              Yes! However, there is no intelligent life on Androxus ;-;
              Life developed on the planet is basically made up of microorganisms <span>microorganisms</span> and low vegetation.
-             </p>
-             <p>
-             The <span>biomes</span> in Androxian lands are basically 3 types: <span>Penumbra</span>, a very fertile terrain biome composed of diverse vegetation, normally located around the oceans; 
-             <span>Rocker</span>, a biome composed of rocky elevations; <span>Crisper</span>, a biome composed of reddish sand forming a endless desert.
-             </p>
+          </p>
+          <p>
+            The <span>biomes</span> in Androxian lands are basically 3 types: <span>Penumbra</span>, a very fertile terrain biome composed of diverse vegetation, normally located around the oceans; 
+            <span>Rocker</span>, a biome composed of rocky elevations; <span>Crisper</span>, a biome composed of reddish sand forming a endless desert.
+          </p>
           
         </div>
       </section>

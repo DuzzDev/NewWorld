@@ -63,7 +63,13 @@ footer{
     cursor: pointer;
   }
 }
-
+.logo-footer{
+  object-fit: cover;
+  height: 200px;
+}
+.active{
+  color: $color-hover;
+}
 @media(max-width:500px){
   .links-footer-div{
     flex-direction: column;

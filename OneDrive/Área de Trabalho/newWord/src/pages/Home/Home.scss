@@ -5,3 +5,38 @@
   flex-direction: column;
   gap: 40px;
 }
+.cta-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.cta-text{
+  font-family: 'Poppins';
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  span{
+    color: $color-hover;
+  }
+}
+.cta-btn{
+  padding: 10px 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-family: 'Poppins';
+  width: 100%;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.5s;
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+}

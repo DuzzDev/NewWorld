@@ -1,46 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, {  useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.scss';
 import useResize from '../../hooks/useResize';
 import {AiOutlineMenu} from 'react-icons/ai';
 import SideBar from '../SideBar/SideBar';
+import hendlerColor from '../../js/hendlerColor';
+import useColor from '../../hooks/useColor';
+import logo from '../../img/logoHeader.png';
+
 
 function Header(){
   const [elements,setElements] = useState(true);
-  const location = useLocation();
-  const hendlerColor = (ev)=>{
-  
-    const linkHome = document.getElementById('linkHome');
-    const linkAboutUs = document.getElementById('linkAboutUs');
-    const linkService = document.getElementById('linkPlanet');
-    const linkHomeSide = document.getElementById('linkHome-sideBar');
-    const linkAboutUsSide = document.getElementById('linkAboutUs-sideBar');
-    const linkServiceSide = document.getElementById('linkPlanet-sideBar');
-  
-    if(ev.target.id == 'linkHome'||ev.target.id == 'linkHome-sideBar'){
-      linkHome.classList.add('active');
-      linkHomeSide.classList.add('active');
-      linkAboutUs.classList.remove('active');
-      linkService.classList.remove('active');
-      linkAboutUsSide.classList.remove('active');
-      linkServiceSide.classList.remove('active');
-    }else if(ev.target.id == 'linkAboutUs'||ev.target.id == 'linkAboutUs-sideBar'){
-      linkAboutUs.classList.add('active');
-      linkHome.classList.remove('active');
-      linkService.classList.remove('active');
-      linkAboutUsSide.classList.add('active');
-      linkHomeSide.classList.remove('active');
-      linkServiceSide.classList.remove('active');
-    }else if(ev.target.id == 'linkPlanet'||ev.target.id == 'linkPlanet-sideBar'){
-      linkService.classList.add('active');
-      linkAboutUs.classList.remove('active');
-      linkHome.classList.remove('active');
-      linkServiceSide.classList.add('active');
-      linkAboutUsSide.classList.remove('active');
-      linkHomeSide.classList.remove('active');
-    }
-  
-  };
   const hideElements = ()=>{
     if(window.innerWidth <= 600){
       setElements(false);
@@ -58,45 +28,12 @@ function Header(){
     });
     
   };
-  useEffect(()=>{
-    console.log(location);
-    const linkHome = document.getElementById('linkHome');
-    const linkAboutUs = document.getElementById('linkAboutUs');
-    const linkService = document.getElementById('linkPlanet');
-    const linkHomeSide = document.getElementById('linkHome-sideBar');
-    const linkAboutUsSide = document.getElementById('linkAboutUs-sideBar');
-    const linkServiceSide = document.getElementById('linkPlanet-sideBar');
-  
-    if(location.pathname == '/Home'){
-      linkHome.classList.add('active');
-      linkHomeSide.classList.add('active');
-      linkAboutUs.classList.remove('active');
-      linkService.classList.remove('active');
-      linkAboutUsSide.classList.remove('active');
-      linkServiceSide.classList.remove('active');
-    }else if(location.pathname == '/AboutUs'){
-      linkAboutUs.classList.add('active');
-      linkHome.classList.remove('active');
-      linkService.classList.remove('active');
-      linkAboutUsSide.classList.add('active');
-      linkHomeSide.classList.remove('active');
-      linkServiceSide.classList.remove('active');
-    }else if(location.pathname == '/3DPlanet'){
-      linkService.classList.add('active');
-      linkAboutUs.classList.remove('active');
-      linkHome.classList.remove('active');
-      linkServiceSide.classList.add('active');
-      linkAboutUsSide.classList.remove('active');
-      linkHomeSide.classList.remove('active');
-    }
-  
-   
-  },[]);
+  useColor();
   useResize(hideElements);
   return(
     <>
       <header>
-        <p className="logo">logo</p>
+        <img src={logo} alt="logo" className="logo"/>
         <nav>
           <Link
             id="linkHome"
