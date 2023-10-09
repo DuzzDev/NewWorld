@@ -39,20 +39,19 @@ function Footer(){
 
       </div>
       <div className="div-icons-footer">
-        <Link to={'https://www.instagram.com/_heleno__/'}>
+        <Link to={'https://www.instagram.com/_heleno__/'} className="link-footer-out">
           <FiInstagram className="icons-footer"/>
+          <span className="toolchip"> Igor's Instagram</span>
         </Link>
 
-        <Link to={'https://github.com/DuzzDev/NewWorld/tree/main'}>
+        <Link to={'https://github.com/DuzzDev/NewWorld/tree/main'} className="link-footer-out">
           <AiFillGithub  className="icons-footer"/>
+          <span className="toolchip">github repository</span>
         </Link>
 
-        <Link to={'https://www.instagram.com/duzz_dev/'}>
+        <Link to={'https://www.instagram.com/duzz_dev/'} className="link-footer-out">
           <FiInstagram className="icons-footer"/>
-        </Link>
-
-        <Link to={'https://github.com/heleno2307'}>
-          <AiFillGithub  className="icons-footer"/>
+          <span className="toolchip">DuzzDev's Instagram</span>
         </Link>
       </div>
 
