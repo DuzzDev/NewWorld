@@ -10,15 +10,15 @@ function AboutUs(){
         <div className="card-img-about">
           <img src={img} alt="" className="about-img"/>
         </div>
-        <p className="text-about">I'm heleno, I'm a developer and data analyst and I come from Brazil. Our <span>team has 2 developers and a data analyst,</span> we all work in the field and are studying engineering or computer science. The team needs a graphic or UI/UX designer to be able to master the challenge.</p>
+        <p className="text-about">I'm heleno, Our team is made up of <span>2 developers</span>, and each one also performs other functions such as data analysis and graphic design. The 2 developers study the field of computer science and wanted to challenge themselves in this hackathon, building a project that taught astronomy to all types of people, in a visual and literary way in 48 hours.</p>
       </section>
       <section className="about-profile-card">
         <div className="card-profile">
           <img src={img2} alt="profile" className="profile"/>
-          <p className="img-profile-text">Hello, I'm Kayky, I'm a junior dev and I work in the <span>Front-end developer</span> area</p>
+          <p className="img-profile-text">Hello, I'm Duzz, I'm studying systems engineering and in this project I worked as a <span>front end developer</span> and <span>data analyst</span></p>
         </div>
         <div className="card-profile reverse">
-          <p className="img-profile-text">Hello, I'm Igor, I'm a junior dev and I work in the <span>Front-end developer</span> area</p>
+          <p className="img-profile-text">Hello, I'm Heleno and in this project I worked as a <span>front end developer</span> and <span>graphic designer</span></p>
           <img src={img3} alt="profile" className="profile"/>
         </div>
     
