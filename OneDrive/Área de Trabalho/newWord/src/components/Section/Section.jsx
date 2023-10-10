@@ -46,7 +46,7 @@ function Section (){
         <div>
           <img src={img3} alt="" className="img-sociedade" />
           <span className="back-img"></span>
-          <p className="text-img">D-day</p>
+          <p className="text-img"><span className="color">D</span>-day</p>
         </div>
         <p className="text">
             Finally, the time has come for our arrival at Anydrus. A tense and expectant atmosphere filled Irium, it was the moment we had been waiting for for so long. As we exited the ship and took our first steps onto the surface, I saw a world that was at once strange and familiar. Anydrus's first impressions were overwhelming. The sky,
@@ -70,10 +70,10 @@ function Section (){
         <div>
           <img src={img5} alt="" className="img-sociedade" />
           <span className="back-img"></span>
-          <p className="text-img"><span className="color">Magno</span>, the first anydrum</p>
+          <p className="text-img"><span className="color">Magno</span>, the first anydrium</p>
         </div>
         <p className="text">
-            After 10 months of New World, it was here, in this new home, amid the hopes and challenges of Anydrus, that we witnessed the birth of Magno, the first Anydriuns, a living promise of our future on this planet and a symbol
+            After 10 months of New World, it was here, in this new home, amid the hopes and challenges of Anydrus, that we witnessed the birth of Magno, the first Anydrium, a living promise of our future on this planet and a symbol
             of our pioneering journey into the unknown. Magnus, as his name suggests,
             It is the embodiment of our pride and our determination to build a new world. He will be the guardian of the legacy of
             Pioneers, as the participants of the first expedition to Anydrus are known.
